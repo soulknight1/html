@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Web Form of HTML5</title>
+<link rel="stylesheet" href="main.css>
+</head>
+<body>
+<header></header>
+<nav>
+<ul>
+<li>Home</li>
+<li>Register</li>
+<li>Contact</li>
+<li>About</li>
+</ul>
+</nav>
+<section>
+<article>
+<form method="get" action="">
+
+<label>First name : </label><input name="fname"
+
+type="text" required />*<br/><br/>
+
+<label>Last name : </label><input name="lname"
+
+type="text" required />*<br/><br/>
+
+<label>Age : </label><input name="age"
+
+type="number" step="1"
+
+min="1" max="100" value="1"/><br/><br/>
+<label>E-Mail : </label><input name="mail"
+
+type="email"
+
+placeholder="youremail@email.com" autofocus
+
+required/><br/><br/>
+
+<script>
+function RangeNumber() {
+var moveVal=
+
+document.getElementById('rmove').value;
+
+document.getElementById('shownum').innerHTML = moveVal;
+
+}
+</script>
+<label>Try to move me : </label><input name="moveme"
+
+id="rmove" type="range"
+
+min="0" max="100" value="50"
+
+onchange="RangeNumber(event)" />
+
+<span id="shownum">50</span>
+<br/><br/>
+<label>Tel. Phone : </label><input name="tel" type="tel"
+placeholder="(999) 999-999"
+pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{3}.*?$" /> <br/><br/>
+<input type="submit" value="สมัครสมาชิก" /><br/>
+</form>
+
+</article>
+</section>
+<footer></footer>
+</body>
+</html>

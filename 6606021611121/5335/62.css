@@ -1,0 +1,79 @@
+
+#sec_container{
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+border: 5px solid green;
+}
+header{
+background: green;
+display: -webkit-box;
+-webkit-box-pack: center;
+padding: 20px;
+}
+nav {
+background: blue;
+color: white;
+}
+nav li{
+display: inline-block;
+list-style: none;
+padding: 5px;
+color: white;
+font: bold 14px Verdara;
+}
+#sec_container{
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+border: 5px solid red;
+}
+section{
+-webkit-box-flex: 1;
+margin: 0px;
+padding: 10px;
+
+border:solid 10px blue;
+}
+aside{
+border:10px solid green;
+background: white;
+width: 220px;
+margin: 0px;
+}
+article{
+padding: 10px;
+margin-bottom: 10px;
+font-size: 12px;
+}
+p{
+font-family:Angsana New;
+font-size:24px;
+font-style:bold;
+}
+ul#sec{ list-style-position:inside; }
+ul#sec2{ list-style-position:inside; }
+ul#sec li{
+font-family:Angsana New;
+font-size:24px;
+font-style:bold;
+text-indent:70px;
+}
+article header{
+background: white;
+padding: 0px;
+border: none;
+}
+article footer{
+
+text-align: right;
+font-family:Angsana New;
+font-size:24px;
+padding-right: 10px;
+border: none;
+}
+footer#bg{
+font-family:Angsana New;
+font-size:24px;
+text-align: center;
+padding: 20px;
+background-color:#03f;
+}
